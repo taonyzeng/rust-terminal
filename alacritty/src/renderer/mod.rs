@@ -603,7 +603,7 @@ impl QuadRenderer {
             gl::VertexAttribDivisor(5, 1);
 
             gl::BindVertexArray(0);
-            gl::BindBuffer(gl::ARRAY_BUFER, 0);
+            gl::BindBuffer(gl::ARRAY_BUFFER, 0);
         }
 
         let (msg_tx, msg_rx) = mpsc::channel();

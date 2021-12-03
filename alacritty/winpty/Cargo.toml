@@ -1,6 +1,6 @@
 [package]
 name = "winpty"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Zac Pullar-Strecker <zacmps@gmail.com>"]
 license = "MIT"
 description = "Safe rust bindings for winpty"
@@ -12,5 +12,5 @@ bitflags = "1.0"
 widestring = "0.2.2"
 
 [target.'cfg(windows)'.dev-dependencies]
-named_pipe = "0.3"
+named_pipe = "0.4.1"
 winapi = { version = "0.3", features = ["winnt", "processthreadsapi"] }

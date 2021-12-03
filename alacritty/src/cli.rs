@@ -60,7 +60,7 @@ impl Options {
             .author(crate_authors!("\n"))
             .about(crate_description!())
             .arg(Arg::with_name("ref-test")
-                .long("ref-test")                                           
+                .long("ref-test")
                 .help("Generates ref test"))
             .arg(Arg::with_name("live-config-reload")
                 .long("live-config-reload")
