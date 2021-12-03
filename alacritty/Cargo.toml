@@ -1,12 +1,10 @@
 [package]
 name = "alacritty"
 version = "0.2.1"
-authors = ["Joe Wilm <joe@jwilm.com>"]
 license = "Apache-2.0"
 build = "build.rs"
 description = "GPU-accelerated terminal emulator"
 readme = "README.md"
-homepage = "https://github.com/jwilm/alacritty"
 
 [workspace]
 members = [

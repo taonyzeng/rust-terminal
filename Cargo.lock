@@ -1022,22 +1022,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "galacritty"
-version = "0.0.0"
-dependencies = [
- "alacritty",
- "env_logger 0.5.13",
- "epoxy",
- "gdk",
- "gio",
- "glib",
- "gtk",
- "log 0.4.14",
- "pango",
- "shared_library",
-]
-
-[[package]]
 name = "gdi32-sys"
 version = "0.2.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -2552,6 +2536,22 @@ dependencies = [
  "blake2b_simd",
  "constant_time_eq",
  "crossbeam-utils 0.8.5",
+]
+
+[[package]]
+name = "rust-terminal"
+version = "0.0.0"
+dependencies = [
+ "alacritty",
+ "env_logger 0.5.13",
+ "epoxy",
+ "gdk",
+ "gio",
+ "glib",
+ "gtk",
+ "log 0.4.14",
+ "pango",
+ "shared_library",
 ]
 
 [[package]]

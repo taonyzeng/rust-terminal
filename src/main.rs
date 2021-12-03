@@ -28,7 +28,7 @@ fn build_actions(app: gtk::Application,
     about_action.connect_activate(clone!(window => move |_, _| {
         let about = gtk::AboutDialog::new();
         about.set_transient_for(Some(&window));
-        about.set_program_name("Galacritty");
+        about.set_program_name("Rust-Terminal");
         about.set_version(env!("CARGO_PKG_VERSION"));
         about.set_logo_icon_name("technology.unrelenting.galacritty");
         about.set_authors(&[env!("CARGO_PKG_AUTHORS")]);
@@ -160,7 +160,7 @@ fn build_ui(app: &gtk::Application) {
 
     let window = gtk::ApplicationWindow::new(app);
 
-    window.set_title("Galacritty");
+    window.set_title("Rust-Terminal");
     window.set_border_width(0);
     window.set_default_size(1280, 720);
 
