@@ -1,0 +1,16 @@
+[package]
+name = "winpty"
+version = "0.1.0"
+authors = ["Zac Pullar-Strecker <zacmps@gmail.com>"]
+license = "MIT"
+description = "Safe rust bindings for winpty"
+
+[target.'cfg(windows)'.dependencies]
+# TODO: Replace with official repo
+winpty-sys = { git = "https://github.com/zacps/winpty", branch = "rust" }
+bitflags = "1.0"
+widestring = "0.2.2"
+
+[target.'cfg(windows)'.dev-dependencies]
+named_pipe = "0.3"
+winapi = { version = "0.3", features = ["winnt", "processthreadsapi"] }
