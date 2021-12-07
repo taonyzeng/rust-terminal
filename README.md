@@ -3,6 +3,10 @@
 
 ## Prerequisites
 
+### install a [`desktop Ubuntu`](https://ubuntu.com/download/desktop)
+
+Download the version Ubuntu 20.04.3 LTS, and install it in your virtualbox.
+
 ### Clone the source code
 
 Before compiling the project, you'll have to first clone the source code:
